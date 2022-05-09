@@ -1,0 +1,37 @@
+<!--
+    2022.05.09
+    리액트를 적용하지 않은 html에 리액트 적용하기 
+    참고사이트 : https://ko.reactjs.org/docs/add-react-to-a-website.html
+    1) react 라이브러리 script로 불러오기
+    2) 바벨 script로 불러오기
+    3) div에 작성
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--리액트 import reactDOM, import React와 같은 역할-->
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <!----바벨 불러오기 : JSX 태그를 사용하려면 필요 ---------->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  </head>
+  <body>
+    안녕하세요!
+    <div id="root">
+      <script type="text/babel">
+        const root = document.getElementById("root");
+        ReactDOM.render(<h2>반갑습니다</h2>, root);
+      </script>
+    </div>
+  </body>
+</html>

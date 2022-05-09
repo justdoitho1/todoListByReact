@@ -124,3 +124,16 @@ const arr2 = [...arr1];
  * js , jquery는 id나 클래스로 직접 돔에 접근해서 변화를 줬음
  * 그러나 리액트는 값이 바뀌면 화면도 같이 변화하는 방식으로 개발
  */
+
+//html 파일이 하나인 것을 single page application spa라고 함
+
+//리액트 명령어 모음
+// 서버 시작 : npm start
+// 빌드파일 생성 : npm run build
+// https://gocoder.tistory.com/2190
+
+//리액트를 도와주는 도구들
+// webpack : js 파일들을 묶어주는 번들러. 브라우저에는  js 파일을 import 하는 기능이 없어 번들러가 필요
+// index.js에서 시작으로 필요한 파일들 불러와서 번들링
+// babel : 구버전 브라우저를 위해 최신 문법을 예전 문법으로 벼형
+// polyfill : 구버전 브라우저에 없는 함수를 채워줌

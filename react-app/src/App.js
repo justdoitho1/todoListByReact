@@ -5,11 +5,22 @@ import Counter from "./components/counter";
 import Say from "./components/Say";
 import EventPractice from "./components/Eventpractice";
 import IterationSample from "./components/IterationSample";
+import Counter2 from "./components/Counter2";
+import Info from "./components/Info";
+import ParentInfo from "./components/ParentInfo";
+import Average from "./components/Average";
+import InputFile from "./components/InputFile";
+import StyledComponents from "./components/StyledComponents";
+import Todo from "./Todo";
 function App() {
   return (
     <>
-      <IterationSample></IterationSample>
-      {/* <EventPractice />
+      <Todo></Todo>
+      {/*  <StyledComponents></StyledComponents>
+       
+       <IterationSample></IterationSample>
+        <InputFile></InputFile>
+     <EventPractice />
       <Say />
       <Counter></Counter>
       <Jsx />

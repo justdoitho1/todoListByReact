@@ -70,3 +70,5 @@
 //   );
 
 // react-jsx-dev-runtime.development.js:97 Warning: Each child in a list should have a unique "key" prop. 오류
+
+//https://velog.io/@fepanbr/JS-this-irwvobaq

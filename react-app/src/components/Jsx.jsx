@@ -1,6 +1,6 @@
 const Jsx = () => {
   const name = "리액트";
-  const name2 = "뷰";
+  //const name2 = "뷰";
 
   const style = {
     backgroundColor: "black",

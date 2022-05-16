@@ -12,11 +12,16 @@ import Average from "./components/Average";
 import InputFile from "./components/InputFile";
 import StyledComponents from "./components/StyledComponents";
 import Todo from "./Todo";
+import Axios from "./components/Axios";
+import Bootstrap from "./components/Bootstrap";
+
 function App() {
   return (
     <>
-      <Todo></Todo>
+      <Bootstrap></Bootstrap>
       {/*  <StyledComponents></StyledComponents>
+      <Axios></Axios>
+      <Todo></Todo>
        
        <IterationSample></IterationSample>
         <InputFile></InputFile>

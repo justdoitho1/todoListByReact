@@ -9,7 +9,9 @@ const Main = () => {
         <Link to="/movie">
           <BtnLink>영화</BtnLink>
         </Link>
-        <BtnLink>책</BtnLink>
+        <Link to="/book">
+          <BtnLink>책</BtnLink>
+        </Link>
       </Layout>
     </>
   );

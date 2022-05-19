@@ -1,2 +1,4 @@
-const Book = () => {};
+const Book = () => {
+  return <>book</>;
+};
 export default Book;

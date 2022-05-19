@@ -53,6 +53,7 @@ const Container = styled.div`
 `;
 
 const Menu = styled.ul`
+  z-index: 10;
   display: ${({ isShow }) => !isShow && "none"};
   top: 45px;
   background: #fff;

@@ -40,7 +40,7 @@ const TopNav = () => {
         </Nav>
       </Container>
       <Outlet></Outlet>
-      {/* router.js에서 자식 라우트로 둔 애들을 outlet 컴포넌트를 통해 여기서 호출할 수 있음. */}
+      {/* router.js에서 자식 라우트로 둔 애들을 outlet 컴포넌트를 여기서 호출할 수 있음. */}
     </>
   );
 };

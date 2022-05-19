@@ -9,7 +9,7 @@ const Router = () => {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/" element={<TopNav />}>
-          {/**중첩라우터 */}
+          {/**중첩라우터. TopNav에서 Outlet으로 호출 */}
           <Route path="/movie" element={<Movie />} />
           <Route path="/book" element={<Book />} />
         </Route>

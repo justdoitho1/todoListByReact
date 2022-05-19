@@ -9,7 +9,7 @@ const Main = () => {
         <Link to="/movie">
           <BtnLink>영화</BtnLink>
         </Link>
-        <BtnLink>영화</BtnLink>
+        <BtnLink>책</BtnLink>
       </Layout>
     </>
   );
